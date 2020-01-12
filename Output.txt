@@ -1,0 +1,49 @@
+/**************************************************************************
+* AUTHOR        : Nisha Davankar
+* Student ID    : 1045735
+* Assignment    : 9
+* CLASS         : CS1C
+* SECTION       : MW 5pm
+* DUE DATE      : 03/11/19
+**************************************************************************/
+
+This program uses to STL library container Queue to create a queue. This
+program adds elements to a queue, deletes elements from a queue, returns
+the front element of a queue, checks if a queue is empty or full. The 
+program can also print all the elements in the queue. This programs has
+a copy constructor and it can copy all the elements of the queue in another
+queue. 
+
+Character Queue
+Enqueue  a  b  c  d  e  f  
+Dequeue  d  e  f  
+Enqueue  d  e  f  g  h  i  j  
+Dequeue  Queue is empty
+Is Empty?  Queue is empty
+Is Full?  Queue is not full
+Front of the Queue?  Queue is empty so nothing is in the front
+Copy constructor is called - Queue is empty so nothing is copied
+
+Integer Queue
+Enqueue  1  2  3  4  5  6  
+Dequeue  3  4  5  6  
+Enqueue  3  4  5  6  7  8  9  
+Dequeue  7  8  9  
+Is Empty?  Queue is not empty
+Is Full?  Queue is not full
+Front of the Queue?  7
+Copy constructor is called - Copied items are -7  8  9  
+
+Double Queue
+Enqueue  1.1  2.2  3.3  4.4  5.5  6.6  
+Dequeue  2.2  3.3  4.4  5.5  6.6  
+Enqueue  2.2  3.3  4.4  5.5  6.6  7.7  8.8  
+Dequeue  7.7  8.8  
+Is Empty?  Queue is not empty
+Is Full?  Queue is not full
+Front of the Queue?  7.7
+Copy constructor is called - Copied items are -7.7  8.8  
+
+Testing true condition for isFULL()
+Enqueue  7.7  8.8  7.7  8.8  9.9  1.1  2.2  3.3  4.4  5.5  
+Is Full?  Queue is full
